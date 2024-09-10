@@ -37,6 +37,7 @@ const Showcase = () => {
                                     alt="photo"
                                     sizes="100vw"
                                     className="w-full h-full"
+                                    priority
                                 />
                             </picture>
                             <div className="absolute -bottom-2 right-0 lg:-right-24">
@@ -48,6 +49,7 @@ const Showcase = () => {
                                         height={0}
                                         sizes="100vw"
                                         className="w-12 h-12 p-2 bg-black hover:bg-neutral-400"
+                                        priority
                                     />
                                 </button>
                                 <button onClick={handleNext}>
@@ -58,6 +60,7 @@ const Showcase = () => {
                                         height={0}
                                         sizes="100vw"
                                         className="w-12 h-12 p-2 bg-black hover:bg-neutral-400"
+                                        priority
                                     />
                                 </button>
                             </div>
@@ -74,6 +77,7 @@ const Showcase = () => {
                                     height={0}
                                     sizes="100vw"
                                     className="w-10"
+                                    priority
                                 />
                             </div>
                         </div>

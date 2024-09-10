@@ -14,6 +14,8 @@ const AboutComponent = () => {
                             height={0}
                             sizes="100vw"
                             className="w-full"
+                            priority
+
                         />
                     </div>
                     <div className="flex flex-col gap-4 p-8 lg:p-12">
@@ -37,6 +39,7 @@ const AboutComponent = () => {
                             height={0}
                             sizes="100vw"
                             className="w-full"
+                            priority
                         />
                     </div>
                 </article>
