@@ -1,7 +1,7 @@
 import Link from "next/link";
 import React from "react";
 
-const Links = ({ isVertical = false }: { isVertical?: boolean }) => {
+const Links = () => {
     return (
         <>
             <ul className={`flex uppercase text-slate-200 text-lg gap-4`}>
